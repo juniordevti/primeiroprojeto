@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(51, 50, 50, 0.932);
+    font-family: "Rancho", cursive;
+}
+
+header {
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid aqua;
+    box-shadow: 0px 0px 90px rgba(3, 233, 241, 0.973);
+    width: 100%;
+
+}
+
+header img {
+    width: 120px;
+    border-radius: 20%;
+    border: 3px solid rgb(0, 255, 255);
+    box-shadow: 0px 0px 25px rgba(0, 255, 242, 0.726);
+}
+
+header h1  {
+    font-size: 40px;
+    text-align:  center;
+    font-style: oblique;
+}
+
+header p {
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+main {
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.secIntr h2{
+    font-weight: 900;
+	font-size: clamp(22px, 4.2vw, 36px);
+	text-align: center;
+    color: aqua;
+    padding: 40px 12px;
+}
+
+.secIntr p {
+    text-align: center;
+    font-size: 20px;
+}
+
+main h2 {
+    font-size: 30px;
+    color: aqua;
+}
+
+.perg8  img{
+    width: 120px;
+    border-radius: 20%;
+    padding: 9px;
+}
+
+
+footer {
+    background-color: rgb(80, 82, 82);
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 25px;
+
+}
+
+footer a {
+    font-size: 20px;
+    color: rgba(254, 254, 255, 0.678);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: rgb(6, 191, 204);
+    transition: 1s;
+}
+

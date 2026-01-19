@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Para Programadores--Juniordev TI</title>
+    <meta
+      name="description"
+      content="Este Projeto Eu Aprendi Com a Youtuber (Rafaella-Balerine) esse foi um dos meus primerios projetos e foi através dele que surgiu em me a vontade de aprender a desenvolver e se interessar por programação. Fiquem com o Conteudo e agradeço a todos que estão comigo até hoje e é isso.. 😎 "
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="lg.png" alt="logo header" />
+      <h1>Quiz Para Desenvolvedores Web</h1>
+      <p>
+        Teste seus conhecimentos sobre programação na area de Desenvolvimento
+        Web com Html e css
+      </p>
+    </header>
+    <main>
+      <section class="secIntr">
+        <h2>Sobre Esse Quiz</h2>
+        <p>
+          <strong> Esse quiz</strong>Foi desenvolvido para testar o conhecimento
+          dos desenvolvedores Web <em> Linguagens de programação </em>
+          conceitos variaveis e funções.
+        </p>
+
+        <p>
+          Voce encontrara diferentes tipos de perguntas, incluindo multipla
+          escolha, texto e perguntas de Data. <br />
+          voce podera encontrar alguns acronimos como
+          <abbr title="Hypertext Markup Language">HTML</abbr>
+          e
+          <abbr title="Cascading Style Sheet">CSS</abbr>, que são bastante
+          usados em questão relacionadas Web.
+        </p>
+      </section>
+
+      <!-- pergunta 1: multipla escolha ? -->
+      <section class="Perg1">
+        <h2>1°) Qual a Linguagem é usada para estruturar paginas web ?</h2>
+        <form action="">
+          <input type="radio" value="PYTHON" id="P1a" name="Pergunta1" />
+          <label for="P1a">PYTHON</label><br />
+
+          <input type="radio" value="HTML" id="P1b" name="Pergunta1" />
+          <label for="P1b">HTML</label><br />
+
+          <input type="radio" value="CSS" id="P1c" name="Pergunta1" />
+          <label for="P1c">CSS</label><br />
+
+          <input type="radio" value="RUBY" id="P1d" name="Pergunta1" />
+          <label for="P1d">RUBY</label><br />
+        </form>
+      </section>
+      <!-- pergunta 2
+         -->
+
+      <section class="perg2">
+        <h2>2°) Na URL https://www.google.com o trecho "google.com" é o ?</h2>
+        <form action="">
+          <input
+            type="text"
+            id="P2"
+            name="Pergunta2"
+            placeholder="Digite sua resposta aqui..."
+          />
+        </form>
+      </section>
+      <!-- pergunta3 -->
+      <section>
+        <h2>3°) Escreva Um Exemplo de Codigo Em HTML</h2>
+        <form>
+          <input
+            type="text"
+            id="P3"
+            name="Pergunta3"
+            placeholder="Digite aqui..."
+          />
+        </form>
+      </section>
+      <!-- pergunta4 -->
+      <section>
+        <h2>4°) Em que ano o HTML lançou a sua primeira versão</h2>
+        <form>
+          <input type="date" id="P4" name="pergunta4" />
+        </form>
+      </section>
+      <!-- pergunta5 -->
+      <section>
+        <h2>
+          5°) Quais dessas tecnologias são consideradas Linguagens de
+          programação?
+        </h2>
+        <form>
+          <input type="checkbox" id="P5a" name="Pergunta5" value="JavaScript" />
+          <label for="P5a">JavaScript</label><br />
+          <input type="checkbox" id="P5b" name="Pergunta5" value="Python" />
+          <label for="P5b">Python</label><br />
+          <input type="checkbox" id="P5c" name="Pergunta5" value="SQL" />
+          <label for="P5c">SQL</label><br />
+          <input type="checkbox" id="P5d" name="pergunta5" value="Html" />
+          <label for="P5d">Html</label><br />
+          <input type="checkbox" id="P6e" name="pergunta5" value="CSS" />
+          <label for="P5e">CSS</label><br />
+        </form>
+      </section>
+      <!-- pergunta6 -->
+      <section>
+        <h2>6°) Faça o upload de um arquivo (html) contendo codigo:</h2>
+
+        <form>
+          <input type="file" id="P6" name="pergunta6" />
+        </form>
+      </section>
+      <!-- pergunta7 -->
+      <section>
+        <form>
+          <select name="pergunta7" id="P7">
+            <option value="id">id</option>
+            <option value="type">type</option>
+            <option value="placeholder">placeholder</option>
+            <option value="css">CSS</option>
+          </select>
+        </form>
+      </section>
+      <!-- pergunta8 -->
+      <section class="perg8">
+        <h2>
+          8°) Qual a Linguagem de programação é representadapelo logotipo
+          abaixo:
+        </h2>
+
+        <figure>
+          <img
+            src="https://cdn.dooca.store/1814/products/wl4jmbx64uafsz0ci1fsqofkb0wbnr6bitqp.jpg?v=1621885027&webp=0"
+            alt="imagem et"
+          />
+          <br />
+          <figcaption>
+            Figura 1: logotipo de uma Linguagem de programação
+          </figcaption>
+          <input
+            type="text"
+            id="P8"
+            name="pergunta8"
+            placeholder="Digite aqui"
+          />
+        </figure>
+      </section>
+      <!-- pergunta9 -->
+      <section>
+        <h2>Tabela de Pontuação</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Pontuação</th>
+              <th>Avaliação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0-2</td>
+              <td>
+                Não desista Cada Tentativa é uma oportunidade de Aprender Mais!
+              </td>
+            </tr>
+            <tr>
+              <td>3-4</td>
+              <td>
+                Você ainda precisa melhorar. Que tal estudar mais sobre
+                programação?
+              </td>
+            </tr>
+            <tr>
+              <td>5-6</td>
+              <td>Bom! Seu conhecimento em programação está satisfatório.</td>
+            </tr>
+            <tr>
+              <td>7-8</td>
+              <td>
+                Perfeito! Você está muito bem informado sobre programação.
+              </td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Boa sorte na proxima</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <!-- lista de respostas -->
+
+      <section>
+        <h2>Verifique suas respostas:</h2>
+        <details>
+          <summary>Clique aqui para ver as respostas do quiz</summary>
+          <ol>
+            <li>Html</li>
+            <li>Dominio</li>
+            <li>doctype</li>
+            <li>1991</li>
+            <li>JavaScript e Python</li>
+            <li>Arquivo deve conter extensão .HTML</li>
+            <li>Type</li>
+            <li>Java</li>
+          </ol>
+        </details>
+      </section>
+      <!-- formulario de feedback -->
+      <section>
+        <h2>Nos dê o seu feedback</h2>
+        <form>
+          <legend>Infomações de contato</legend>
+          <label for="nome">Nome:</label>
+          <input placeholder="Junior" type="text" id="nome" name="Nome" />
+          <br />
+          <label for="Email">Email:</label>
+          <input
+            type="text"
+            placeholder="Juniordev@gmail.com"
+            id="Email"
+            name="Email"
+          /><br />
+          <label for="Comentarios">Comentarios</label><br />
+          <textarea
+            name="Comentarios"
+            id="Comentarios"
+            rows="3"
+            placeholder="Digite aqui..."
+          ></textarea>
+          <br />
+          <button onclick="alert('FEEDEBACK ENVIADO')">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Quiz de Programadores. Todos os Direitos Reservados</p>
+      <br />
+      <p>
+        Desenvolvedor:<a href="https://juniordevti.github.io/projetos/">
+          Juniordev TI</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
